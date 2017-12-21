@@ -48,7 +48,7 @@ class HumanInteractionClassifier extends Classifier {
     historyEvaluator = new HistoryEvaluator();
     enabled =
         ConfigProviderBindings.get(context)
-            .getBoolean(CONFIG_ANSWER_FALSE_TOUCH_DETECTION_ENABLED, defaultValue);
+            .getBoolean(CONFIG_ANSWER_FALSE_TOUCH_DETECTION_ENABLED, false);
 
     strokeClassifiers =
         new StrokeClassifier[] {
