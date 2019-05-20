@@ -18,6 +18,5 @@
   <style name="DialtactsTheme" parent="DialtactsThemeBase">
     <item name="android:windowLightNavigationBar">@string/omni_true</item>
     <item name="android:navigationBarColor">@color/background_dialer_white</item>
-    <item name="android:navigationBarDividerColor">@color/background_dialer_white</item>
   </style>
 </resources>
